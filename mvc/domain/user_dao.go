@@ -26,3 +26,4 @@ func GetUser(userID int64) (*User, *utils.ApplicationError) {
 		Code:       "not_found",
 	}
 }
+
